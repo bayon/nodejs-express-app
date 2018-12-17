@@ -16,14 +16,14 @@ describe("routes : static", () => {
             });
         });
     });
-    /*
-    describe("GET /marco", () => {
-        it("should return polo", (done) => {
+    
+    describe("GET /about", () => {
+        it("should return about", (done) => {
             request.get(base, (err, res, body ) => {
-                expect(res.body).toBe("polo");
+                expect(body).toContain("about");
                 done();
             });
         });
     });
-    */
+    
 });
