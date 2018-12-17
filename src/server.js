@@ -12,7 +12,7 @@ const server = http.createServer(app);
 server.listen(port);
 
 function nomalizePort(val) {
-    const post = parseInt(val, 10);
+    const port = parseInt(val, 10);
     if (isNaN(port)) {
         return val;
     }
